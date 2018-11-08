@@ -30,8 +30,7 @@
             <span class="label label-success"> {{ tag.name }} </span>
         {% endfor %}
         <div id="content" class="typo ui container">
-            <div id="test-editormd-view">
-                {{ post.content|safe }}
+            <div id="test-editormd-view"><textarea id="append-test" style="display:none;">{{ post.content|safe }}</textarea>
             </div>
         </div>
         <br>
@@ -118,7 +117,7 @@
             var testEditormdView, testEditormdView2;
 
             testEditormdView = editormd.markdownToHTML("test-editormd-view", {
-                markdown: $("#append-test").text(),
+                //markdown: $("#append-test").text(),
                 //htmlDecode      : true,       // 开启 HTML 标签解析，为了安全性，默认不开启
                 htmlDecode: "style,script,iframe",  // you can filter tags decode
                 //toc             : false,

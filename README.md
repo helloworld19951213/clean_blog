@@ -60,6 +60,7 @@ python manage.py collectstatic
 <pre>
 python manage.py makemigrations
 python manage.py migrate
+mysql 执行migrate时，可能会出现编码错误，可以在创建数据库时指定编码： create database myblog character set utf8mb4;
 </pre>
 
 - 创建管理员

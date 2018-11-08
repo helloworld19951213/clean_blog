@@ -56,12 +56,12 @@ class PostView(DetailView):
     def get_object(self, queryset=None):
         # markdown
         post = super(PostView, self).get_object(queryset=None)
-        post.content = markdown.markdown(post.content,
-                                         extensions=[
-                                             'markdown.extensions.extra',
-                                             'markdown.extensions.codehilite',
-                                             'markdown.extensions.toc',
-                                         ])
+        #post.content = markdown.markdown(post.content,
+        #                                 extensions=[
+        #                                     'markdown.extensions.extra',
+        #                                     'markdown.extensions.codehilite',
+        #                                     'markdown.extensions.toc',
+        #                                 ])
         return post
 
     def get_context_data(self, **kwargs):

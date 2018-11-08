@@ -89,7 +89,7 @@ python manage.py createsuperuser
 
 ![index](/pic/5.png)
 
-### ckeditor文章编辑器
+### Editor.md[文章编辑器](https://pandao.github.io/editor.md/)
 
 ![index](/pic/1.png)
 

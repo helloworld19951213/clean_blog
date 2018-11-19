@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'cleanblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'myblog',
+        'NAME': 'blog',
         'USER': 'root',
-        'PASSWORD': 'im7h322000',
+        'PASSWORD': '123456',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }

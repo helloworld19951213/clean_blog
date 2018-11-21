@@ -3365,13 +3365,13 @@
 
     // Emoji graphics files url path
     editormd.emoji     = {
-        path  : "http://www.emoji-cheat-sheet.com/graphics/emojis/",
+        path  : "/static/md_static/emoji/",
         ext   : ".png"
     };
 
     // Twitter Emoji (Twemoji)  graphics files url path
     editormd.twemoji = {
-        path : "http://twemoji.maxcdn.com/36x36/",
+        path : "/static/md_static/twemoji/",
         ext  : ".png"
     };
 
